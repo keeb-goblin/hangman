@@ -36,9 +36,8 @@ while turns > 0:
             failed += 1    
     # If failed is equal to zero
     if failed == 0:        
-        print (" You won")
-    # Exit the script
-        break            
+        print (" You won") ; time.sleep(2)
+        break         
 
     guess = input(" guess a lowercase character:") 
     # Set the players guess to guesses
@@ -51,5 +50,4 @@ while turns > 0:
     # If the turns are equal to zero
         if turns == 0:           
     
-            print ("You Lose"  )
-
+            print ("You Lose"  ) ; time.sleep(2)
